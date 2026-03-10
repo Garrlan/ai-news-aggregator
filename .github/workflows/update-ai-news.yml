@@ -3,7 +3,7 @@ name: Update AI News Snapshot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "9 1 * * *"  # UTC 01:09 = HKT 09:09 (香港时间每天早上 09:09)
 
 permissions:
   contents: write
